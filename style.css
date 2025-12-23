@@ -1,5 +1,15 @@
+@media (max-width: 768px) {
+    body {
+        background-position: top;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
+
 body{
-    margin: 0;
+    margin: 5px;
     min-height: 100vh;
     background-image: url("assets/bg_img.jpg");
     background-size: cover;
@@ -12,4 +22,5 @@ footer{
     text-align: center;
     padding: 20px;
     position: relative;
+    
 }
