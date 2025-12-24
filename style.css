@@ -17,10 +17,24 @@ body{
     background-repeat: no-repeat;
 }
 footer{
-    
+    margin-top: 100px;
     color: black;
     text-align: center;
-    padding: 20px;
+    padding: 40px 0;
     position: relative;
+    background: rgba(0, 0, 0, 0.05);
     
+}
+.footer h2{
+    margin-bottom: 20px;
+}
+.social_icon{
+    height : 40px;
+    width : 40px;
+    margin : 0 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.social_icon:hover {
+    transform: scale(1.1);            /*Slightly increases size (10%)*/
 }
