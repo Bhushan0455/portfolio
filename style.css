@@ -69,3 +69,16 @@ footer{
 .social_icon:hover {
     transform: scale(1.1);            /*Slightly increases size (10%)*/
 }
+li:hover {
+  color: #0077ff;
+  transform: translateX(5px);
+  transition: 0.3s;
+}
+li::before{
+    content: "▸ ";
+    color: #0077ff;
+}
+section:empty::after {
+  content: "Coming soon...";
+  opacity: 0.6;
+}
